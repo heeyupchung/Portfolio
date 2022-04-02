@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Site</title>
+    <title>Hee Yup Chung's Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
   </head>
@@ -15,12 +16,20 @@
       <div class="sidebar-info-box">
         <br>
         <div class="thumbnail-box">
-          <img class="thumbnail" src="./images/prof.png" alt="Profile Pic">
+          <img class="thumbnail" src="./images/prof.png" alt="Profile Picture">
         </div>
         <div class="dev-intro-box">
           <h5>Hee Yup (Percy) Chung</h5>
-          <p>I am a self-taught Web Developer who loves to build applications and web pages, as well as problem solve with code.</p>
-          <a href="about.html">Learn More &rarr;</a>
+          <hr>
+          <p>Hello! I am a self-taught Web Developer with a background in secondary education. I started my journey of learning how to code a year ago, and am now deeply enjoying every moment I get to use code to problem solve and build applications. <br><br> Whether I am working on pesonal projects, websites for friends and family, or even work-related endeavors, I love to learn from my experiences and strive for excellence in producing web pages or applications.</p>
+          <hr>
+          <p>email: heeyupchung@gmail.com</p>
+          <p>phone: (909) 438-6942</p>
+          <div id="socials">          
+            <a href="https://linkedin.com/in/heeyupchung" class="socials" id="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/heeyupchung" class="socials" id="github"><i class="bi bi-github"></i></a>
+            <a href="https://facebook.com/heeyupchung" class="socials" id="facebook"><i class="bi bi-facebook"></i></a>
+          </div>
         </div>
       </div>
     </div>
@@ -36,7 +45,7 @@
 
       <article class="portfolio-intro">
           <h1>My Portfolio</h1>
-          <p>Welcome to my portfolio! Below you'll find projects I've completed that showcase my skills in and passion for developing software.</p>
+          <p>Welcome to my portfolio! Below you'll find projects that showcase my skills in and passion for developing software.</p>
       </article>
 
       <article class="portfolio-project-thumbs">
@@ -44,7 +53,7 @@
             <div class="cell">
               <a href="https://heeyupchung.github.io/finance-tracker/" target="_blank">
                 <img class="thumbnail" src="./images/finance_1.png" onmouseover="this.src='./images/finance_3.png';" onmouseout="this.src='./images/finance_1.png';" alt="Finance Tracker Thumbnail">
-                <h5>React Finance Tracker</h5>
+                <h5>Finance Tracker</h5>
                 <div class="desc">
                   <p><strong>Description:</strong> An app that dynamically displays saved states of inputted spendings and savings.</p>
                   <p><strong>Technologies:</strong> HTML, CSS, JavaScript, React.js</p>
@@ -54,7 +63,7 @@
             <div class="cell">
               <a href="https://heeyupchung.github.io/React-Gallery-App/" target="_blank">
                 <img class="thumbnail" src="./images/fleeker_1.png" onmouseover="this.src='./images/fleeker_2.png';" onmouseout="this.src='./images/fleeker_1.png';" alt="Fleeker React Gallery Thumbnail">
-                <h5>Fleeker React Gallery</h5>
+                <h5>Fleeker Photo Gallery</h5>
                 <div class="desc">
                   <p><strong>Description:</strong> An app that consumes Flickr's RESTful API and displays relevant images.</p>
                   <p><strong>Technologies:</strong> HTML, CSS, JavaScript, React.js</p>
@@ -64,10 +73,20 @@
             <div class="cell">
               <a href="https://heeyupchung.github.io/Pokemon-Randomizer-API/" target="_blank">
                 <img class="thumbnail" src="./images/pokemon_1.png" onmouseover="this.src='./images/pokemon_3.png';" onmouseout="this.src='./images/pokemon_1.png';" alt="Pokémon Team Randomizer API Thumbnail">
-                <h5>Pokémon Team Randomizer API</h5>
+                <h5>Pokémon Team Randomizer</h5>
                 <div class="desc">
                   <p><strong>Description:</strong> An app that generates a randomized Pokémon team using the Official Pokémon API.</p>
                   <p><strong>Technologies:</strong> HTML, CSS, Bootstrap, JavaScript</p>
+                </div>
+              </a>
+            </div>
+            <div class="cell">
+              <a href="https://lawrencewang.info/" target="_blank">
+                <img class="thumbnail" src="./images/lawrence_1.png" onmouseover="this.src='./images/lawrence_2.png';" onmouseout="this.src='./images/lawrence_1.png';" alt="Lawrence Wang's Website Thumbnail">
+                <h5>Lawrence Wang's Personal Website</h5>
+                <div class="desc">
+                  <p><strong>Description:</strong> Created a web page for my friend Lawrence to help him showcase his abilities as an aspiring chef.</p>
+                  <p><strong>Technologies:</strong> HTML, CSS, Bootstrap</p>
                 </div>
               </a>
             </div>
@@ -84,7 +103,7 @@
             <div class="cell">
               <a href="https://heeyupchung.github.io/Interactive-Form/" target="_blank">
                 <img class="thumbnail" src="./images/form_1.png" onmouseover="this.src='./images/form_3.png';" onmouseout="this.src='./images/form_1.png';" alt="Full Stack Conference Form Thumbnail">
-                <h5>Full Stack Conference Form</h5>
+                <h5>Conference Form</h5>
                 <div class="desc">
                   <p><strong>Description:</strong> An interactive form for a fictional Full Stack conference.</p>
                   <p><strong>Technologies:</strong> HTML, CSS, JavaScript, jQuery</p>
@@ -114,7 +133,7 @@
             <div class="cell">
               <a href="https://heeyupchung.github.io/Public-API-Requests/" target="_blank">
                 <img class="thumbnail" src="./images/employee_1.png" onmouseover="this.src='./images/employee_2.png';" onmouseout="this.src='./images/employee_1.png';" alt="Startup Employee API Display Thumbnail">
-                <h5>Startup Employee API Display</h5>
+                <h5>Startup Employee Display</h5>
                 <div class="desc">
                   <p><strong>Description:</strong> An app that displays employees and their contact info from a public API.</p>
                   <p><strong>Technologies:</strong> HTML, CSS, JavaScript, jQuery</p>
@@ -124,7 +143,7 @@
             <div class="cell">
               <a href="https://heeyupchung.github.io/Calculator/" target="_blank">
                 <img class="thumbnail" src="./images/calculator_1.png" onmouseover="this.src='./images/calculator_2.png';" onmouseout="this.src='./images/calculator_1.png';" alt="Calculator Thumbnail">
-                <h5>A Simple Calculator</h5>
+                <h5>Simple Calculator</h5>
                 <div class="desc">
                   <p><strong>Description:</strong> An app that interactively computes simple calculations.</p>
                   <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
@@ -145,6 +164,6 @@
       </article>
     </div>
 
-    <script src=".js/script.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

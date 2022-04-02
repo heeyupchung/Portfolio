@@ -141,6 +141,8 @@ nav a span {
 }
 
 .sidebar-info-box {
+  position: sticky;
+  top: 0;
   margin: auto;
 }
 
@@ -239,7 +241,7 @@ nav a span {
   font-size: 125%;
   margin: 0 auto;
   padding-bottom: 40px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid grey;
 }
 
 .projects-box h5 {
@@ -309,6 +311,14 @@ nav a span {
   border: 1px solid transparent;
 }
 
+#facebook, #linkedin, #github {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+#facebook:hover, #linkedin:hover, #github:hover {
+  color: #D8D8D8;
+}
 
 /* 
   Tablet layout styles 
