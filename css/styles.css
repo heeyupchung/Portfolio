@@ -54,9 +54,9 @@ p{
   color: #666;
 }
 
-a {
+/* a {
   text-decoration: none;
-}
+} */
 
 .wrapper {
   width: 100%;
@@ -83,7 +83,6 @@ a {
   max-width: 1200px;
   padding: 40px 50px 30px;
   background: #fefefe;
-  border-bottom: 1px solid #eaeaea;
 }
 
 .box h1,
@@ -141,8 +140,6 @@ nav a span {
 }
 
 .sidebar-info-box {
-  position: sticky;
-  top: 0;
   margin: auto;
 }
 
@@ -261,7 +258,6 @@ nav a span {
 .cell img {
   width: 100%;
   min-width: 100px;
-  border: 4px solid #fff;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   transition: transform 0.25s;
 }
@@ -269,7 +265,6 @@ nav a span {
 .cell img:hover {
   width: 100%;
   min-width: 100px;
-  border: 4px solid #fff;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   transform: scale(1.1, 1.1);
 }
@@ -280,15 +275,6 @@ nav a span {
 .about-intro-box p,
 .project-info-box p {
   font-size: 125%;
-}
-
-.about-bio p {
-  font-size: 15px;
-  padding-top: 40px;
-}
-
-.skills-contact-box ul {
-  margin-bottom: 35px;
 }
 
 .project-img {
